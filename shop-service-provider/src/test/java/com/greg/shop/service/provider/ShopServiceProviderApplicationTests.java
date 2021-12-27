@@ -1,10 +1,10 @@
-package com.greg.shop.service.consumer;
+package com.greg.shop.service.provider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootDubboConsumerApplicationTests {
+class ShopServiceProviderApplicationTests {
 
     @Test
     void contextLoads() {

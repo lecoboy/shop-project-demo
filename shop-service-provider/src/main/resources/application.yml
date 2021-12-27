@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: shop-service-provider
+  dubbo:
+      application:
+        id: shop-service-provider
+        name: shop-service-provider
+      registry:
+        address: zookeeper://192.168.0.102:2181;zookeeper://192.168.0.102:2182;zookeeper://192.168.0.102:2183
+      protocol:
+        name: dubbo
+        port: 20880
+
+      server: true
