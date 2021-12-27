@@ -7,15 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @Slf4j
-@SpringBootTest
-class SpringbootRocketmqProducerApplicationTests {
+@SpringBootTest(classes = ProducerApplication.class)
+class ProducerTest {
 
     @Autowired
     private RocketMQTemplate rocketMQTemplate;
 
     @Test
     void testSendMsg() {
-        rocketMQTemplate.convertAndSend("springboot-rockcetmq", "Hello Springboot RocketMq");
+        rocketMQTemplate.convertAndSend("springboot-rocketmq", "Hello Springboot RocketMq");
         log.info("消息发送成功");
     }
 
