@@ -1,1 +1,1 @@
-# springboot-rocketmq-demo
+# shop-mq-demo
