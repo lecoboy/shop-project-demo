@@ -1,5 +1,4 @@
-# shop-project-demo
+# springboot-integration-demo
 Spring Boot  
 Dubbo  
 RocketMq  
-MySql

@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.greg</groupId>
-    <artifactId>shop-project-demo</artifactId>
+    <artifactId>springboot-integration-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>shop-mq-consumer</module>
-        <module>shop-mq-producer</module>
-        <module>shop-service-api</module>
-        <module>shop-service-provider</module>
-        <module>shop-service-consumer</module>
+        <module>springboot-rocketmq-producer</module>
+        <module>springboot-rocketmq-consumer</module>
+        <module>springboot-dubbo-api</module>
+        <module>springboot-dubbo-provider</module>
+        <module>springboot-dubbo-consumer</module>
     </modules>
 
 </project>
