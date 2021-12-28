@@ -22,6 +22,24 @@
         <module>springboot-dubbo-api</module>
         <module>springboot-dubbo-provider</module>
         <module>springboot-dubbo-consumer</module>
+        <module>springboot-mybatis</module>
     </modules>
+
+<!--    <dependencyManagement>-->
+<!--        <dependencies>-->
+<!--            <dependency>-->
+<!--                <groupId>org.apache.rocketmq</groupId>-->
+<!--                <artifactId>rocketmq-spring-boot-starter</artifactId>-->
+<!--                <version>2.1.1</version>-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+<!--    </dependencyManagement>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
