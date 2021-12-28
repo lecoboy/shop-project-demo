@@ -1,9 +1,9 @@
 spring:
   application:
-    name: shop-service-consumer
+    name: springboot-dubbo-consumer
   dubbo:
     application:
-      id: shop-service-consumer
-      name: shop-service-consumer
+      id: springboot-dubbo-consumer
+      name: springboot-dubbo-consumer
     registry:
       address: zookeeper://192.168.0.102:2181;zookeeper://192.168.0.102:2182;zookeeper://192.168.0.102:2183
