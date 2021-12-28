@@ -14,6 +14,8 @@
     <artifactId>springboot-integration-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>pom</packaging>
+
     <modules>
         <module>springboot-rocketmq-producer</module>
         <module>springboot-rocketmq-consumer</module>
