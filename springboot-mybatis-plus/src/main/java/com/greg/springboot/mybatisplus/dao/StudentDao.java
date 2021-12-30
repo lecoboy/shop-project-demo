@@ -1,7 +1,7 @@
-package com.greg.springboot.mybatis.dao;
+package com.greg.springboot.mybatisplus.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.greg.springboot.mybatis.entity.Student;
+import com.greg.springboot.mybatisplus.entity.Student;
 
 public interface StudentDao extends BaseMapper<Student> {
 }

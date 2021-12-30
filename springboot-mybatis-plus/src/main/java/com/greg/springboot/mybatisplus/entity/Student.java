@@ -1,4 +1,4 @@
-package com.greg.springboot.mybatis.entity;
+package com.greg.springboot.mybatisplus.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
